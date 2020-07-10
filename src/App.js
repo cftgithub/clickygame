@@ -13,6 +13,7 @@ class App extends Component {
     // Display the card is clicked
     console.log(id);
   }
+  
 
   render() {
     return (
