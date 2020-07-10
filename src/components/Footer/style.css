@@ -1,0 +1,13 @@
+.footer {
+    position: relative;
+    height: 50px;
+    background-color: #3A7BB8;
+    width: 100%;
+    /* font-family: onePiece; */
+}
+
+.footer-title {
+    position: absolute;
+    bottom: 0;
+    font-size: 22px;
+}

@@ -1,4 +1,19 @@
-.card {
+.fit {
+  height: 175px;
+  width: 175px;
+}
+
+.img-card {
+  height: 100%;
+  margin: 5px 20px;
+  border: 5px solid red;
+}
+
+.content {
+  text-align: center;
+}
+
+/* .card {
     background: #fff;
     border-radius: 2px;
     height: 325px;
@@ -33,7 +48,7 @@
     margin-top: 18px;
   }
   
-  .card > .remove {
+  .card > .clicked {
     color: #ff1744;
     font-size: 48px;
     position: absolute;
@@ -42,7 +57,7 @@
     cursor: pointer;
   }
   
-  .card > .remove:hover {
+  .card > .clicked:hover {
     color: #d50000;
   }
-  
+   */
