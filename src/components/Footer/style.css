@@ -1,13 +1,13 @@
 .footer {
     position: relative;
     height: 50px;
-    background-color: #3A7BB8;
+    background-color: rgb(183, 216, 38);
     width: 100%;
-    /* font-family: onePiece; */
 }
 
 .footer-title {
     position: absolute;
     bottom: 0;
     font-size: 22px;
+    text-align: center;
 }

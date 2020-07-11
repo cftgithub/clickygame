@@ -1,17 +1,19 @@
 .hero {
-    height: 50vh;
+    background-color: #f0c871;
+    background-image: url("https://www.transparenttextures.com/patterns/straws.png");
+    height: 35vh;
     width: 100%;
-    padding: 130px;
+    padding: 100px;
     text-align: center;
     font-family: onePiece;
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 80px;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 /* @font-face {

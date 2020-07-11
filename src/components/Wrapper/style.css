@@ -1,12 +1,10 @@
 .wrapper {
-    /* padding-top: 50px; */
-    background: #ECEFF1;
+    background-color: #c7ae63;
+    background-image: url("https://www.transparenttextures.com/patterns/straws.png");
     /* height: 100%; */
     display: flex;
     flex-flow: row wrap;
-    padding: 20px;
+    padding: 50px 100px;
     justify-content: space-around;
-    /* align-content: flex-start; */
-    /* overflow: auto; */
   }
   

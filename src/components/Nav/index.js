@@ -4,9 +4,9 @@ import "./style.css";
 function Navbar(props) {
     return (
         <nav className="navbar">
-            <div className="navSpace text-center">Clicky Game</div>
+            <div className="navSpace text-center">Your Score: {props.score}</div>
             <div className="navSpace text-center">{props.message}</div>
-            <div className="navSpace text-center">Score: {props.score} Highscore: {props.highScore}</div>
+            <div className="navSpace text-center"> Top Score: {props.highScore}</div>
         </nav>
     );
 }
