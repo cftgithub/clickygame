@@ -1,45 +1,19 @@
 # Clicky Game
 
 ## Overview
-* This app uses ORM (Object Relational Mapping) and MVC (Model View Controller) design pattern. 
-* Node and MySQL is used to query and route data.
-* Handlebars is used to generate HTML.
+Clicky Game is a memory game created using React. The game renders 12 flower images. The goal of the game is to click each flower only once. This game utilizes multiple UI components, component state and responds to user events.
+
 ## How It Works
-* The menu consists of a list of burgers each with a "Devour It!" button. Clicking on the button will move the item to the "Devoured" list.
-* The "Devoured" list gives you the option of deleting the burger or adding the burger back to the menu.
-* User can also type in a new burger and add it to the menu.
-* Burgers are stored in a database using a boolean to determine whether the burger has been devoured.
+* The name of each flower is displayed below the image allowing users to learn the name of each flower as they play.
+* One point is earned for each flower clicked. A second click on the same flower will reset the user's score to "0" and start a new game. 
+* The placement of images will shuffle in a random order with each click, making the game more challenging.
+
+## Demo
+The game is deployed. You can play this game [here](https://cftgithub.github.io/clickygame/).
+
 ## Technologies Used
-* MySQL
-* Node
-* Express
-* Handlebars
-* ORM (Object Relational Mapping)
-
-# VegieArticles
-
-## Purpose
-This is a web app that lets users view and leave comments/notes on Pest Advisory articles scraped from Utah State University (USU) Extension website (https://pestadvisories.usu.edu/category/fruit/).
-
-## MVP
-1.When a user visits this site, the app will scrape articles from USU Extension website and display the following on the main page:
-  * Headline (title of the article)
-  * Summary (summary of the article)
-  * URL (URL to the article)
-
-2.Users will be able to leave comments on the articles displayed and save or delete those comments at user's discretion. Stored comments are visible to every user.
-
-## Additional Features
-  * Each scrape will only add new articles to the database and will not add duplicate articles.
-  * Image associated with the article will be displayed, if available
-  * Notes associated with each article will pop up as a modal and auto-popu;ated witht the title of the article.
-  * The URL to the article is embedded in a button. Clicking the button will take the user to the article in a separate tab.
-  * This app is responsive.
-
-## NPM Packages
-* Express
-* Express-Handlebars
-* Mongoose
-* Cheerio
-* Axios
-* Morgan
+* React
+* JSX
+* Javascript
+* Bootstrap
+* CSS

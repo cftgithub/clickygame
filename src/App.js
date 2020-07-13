@@ -12,7 +12,7 @@ class App extends Component {
     cards,
     score: 0,
     highScore: 0,
-    message: "Click an Image to Start"
+    message: "Click a Flower to Play"
   };
 
   clickCard = id => {
