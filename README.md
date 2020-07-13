@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Clicky Game
 
-## Available Scripts
+## Overview
+* This app uses ORM (Object Relational Mapping) and MVC (Model View Controller) design pattern. 
+* Node and MySQL is used to query and route data.
+* Handlebars is used to generate HTML.
+## How It Works
+* The menu consists of a list of burgers each with a "Devour It!" button. Clicking on the button will move the item to the "Devoured" list.
+* The "Devoured" list gives you the option of deleting the burger or adding the burger back to the menu.
+* User can also type in a new burger and add it to the menu.
+* Burgers are stored in a database using a boolean to determine whether the burger has been devoured.
+## Technologies Used
+* MySQL
+* Node
+* Express
+* Handlebars
+* ORM (Object Relational Mapping)
 
-In the project directory, you can run:
+# VegieArticles
 
-### `npm start`
+## Purpose
+This is a web app that lets users view and leave comments/notes on Pest Advisory articles scraped from Utah State University (USU) Extension website (https://pestadvisories.usu.edu/category/fruit/).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## MVP
+1.When a user visits this site, the app will scrape articles from USU Extension website and display the following on the main page:
+  * Headline (title of the article)
+  * Summary (summary of the article)
+  * URL (URL to the article)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+2.Users will be able to leave comments on the articles displayed and save or delete those comments at user's discretion. Stored comments are visible to every user.
 
-### `npm test`
+## Additional Features
+  * Each scrape will only add new articles to the database and will not add duplicate articles.
+  * Image associated with the article will be displayed, if available
+  * Notes associated with each article will pop up as a modal and auto-popu;ated witht the title of the article.
+  * The URL to the article is embedded in a button. Clicking the button will take the user to the article in a separate tab.
+  * This app is responsive.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## NPM Packages
+* Express
+* Express-Handlebars
+* Mongoose
+* Cheerio
+* Axios
+* Morgan
