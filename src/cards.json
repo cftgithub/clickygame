@@ -2,74 +2,73 @@
     {
       "id": 1,
       "name": "Iris",
-      "image": "https://pixabay.com/get/53e3d0454e5aae14f6d1867dda35367b1c3bd8e256567240_1920.jpg",
+      "image": "./clickygame/images/iris.jpg",
       "clicked": false
     },
     {
       "id": 2,
       "name": "Protea",
-      "image": "https://pixabay.com/get/5ee4d4454d54b108feda8460da2932771139d9e3535777_1920.jpg",
+      "image": "./clickygame/images/protea.jpg",
       "clicked": false
     },
     {
       "id": 3,
       "name": "Bird of Paradise",
-      "image": "https://pixabay.com/get/54e3d3434a5ab108feda8460da2932771139d9e3565378_1920.jpg",
-      "clicked": false,
-      "location": "An Easter Island Head"
+      "image": "./clickygame/images/paradise.jpg",
+      "clicked": false
     },
     {
       "id": 4,
       "name": "Yellow Summer",
-      "image": "https://pixabay.com/get/54e7d6404353b108feda8460da2932771139d9e3565875_1920.jpg",
+      "image": "./clickygame/images/yellowSummer.jpg",
       "clicked": false
     },
     {
       "id": 5,
       "name": "Rose",
-      "image": "https://pixabay.com/get/57e7d14b4b55b108feda8460da2932771139d9e05b5578_1920.jpg",
+      "image": "./clickygame/images/rose.jpg",
       "clicked": false
     },
     {
       "id": 6,
       "name": "Plumeria",
-      "image": "https://pixabay.com/get/54e0dc4a4a54b108feda8460da2932771139d9e35b5074_1920.jpg",
+      "image": "./clickygame/images/plumeria.jpg",
       "clicked": false
     },
     {
       "id": 7,
       "name": "Tulip",
-      "image": "https://pixabay.com/get/53e3d1414f5baa14f6d1867dda35367b1c3bd8e254547241_1920.jpg",
+      "image": "./clickygame/images/tulip.jpg",
       "clicked": false
     },
     {
       "id": 8,
       "name": "Peony",
-      "image": "https://pixabay.com/get/57e1d44a4a5bb108feda8460da2932771139d9e2525173_1920.jpg",
+      "image": "./clickygame/images/peony.jpg",
       "clicked": false
     },
     {
       "id": 9,
       "name": "St John's Wort",
-      "image": "https://pixabay.com/get/53e3d1424c56a814f6d1867dda35367b1c3bd8e25455714d_1920.jpg",
+      "image": "./clickygame/images/stJohnsWort.jpg",
       "clicked": false
     },
     {
       "id": 10,
       "name": "Dandelion",
-      "image": "https://pixabay.com/get/53e3dd434a4fad0bffd89960c62d3e7a1338d9e65053_1280.jpg",
+      "image": "./clickygame/images/dandelion.jpg",
       "clicked": false
     },
     {
       "id": 11,
       "name": "Crown of Christ",
-      "image": "https://pixabay.com/get/53e3d2434852a414f6d1867dda35367b1c3bd8e254537741_1920.jpg",
+      "image": "./clickygame/images/crown.jpg",
       "clicked": false
     },
     {
       "id": 12,
       "name": "Orchid",
-      "image": "https://pixabay.com/get/55e7d24b4253aa14f6d1867dda35367b1c3bd8e254507849_1920.jpg",
+      "image": "./clickygame/images/orchid.jpg",
       "clicked": false
     }
   ]
