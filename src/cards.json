@@ -2,73 +2,73 @@
     {
       "id": 1,
       "name": "Iris",
-      "image": "./clickygame/images/iris.jpg",
+      "image": "/memorygame/images/iris.jpg",
       "clicked": false
     },
     {
       "id": 2,
       "name": "Protea",
-      "image": "../clickygame/images/protea.jpg",
+      "image": "/memorygame/images/protea.jpg",
       "clicked": false
     },
     {
       "id": 3,
       "name": "Bird of Paradise",
-      "image": "/clickygame/images/paradise.jpg",
+      "image": "/memorygame/images/paradise.jpg",
       "clicked": false
     },
     {
       "id": 4,
       "name": "Yellow Summer",
-      "image": "/clickygame/images/yellowSummer.jpg",
+      "image": "/memorygame/images/yellowSummer.jpg",
       "clicked": false
     },
     {
       "id": 5,
       "name": "Rose",
-      "image": "/clickygame/images/rose.jpg",
+      "image": "/memorygame/images/rose.jpg",
       "clicked": false
     },
     {
       "id": 6,
       "name": "Plumeria",
-      "image": "/clickygame/images/plumeria.jpg",
+      "image": "/memorygame/images/plumeria.jpg",
       "clicked": false
     },
     {
       "id": 7,
       "name": "Tulip",
-      "image": "/clickygame/images/tulip.jpg",
+      "image": "/memorygame/images/tulip.jpg",
       "clicked": false
     },
     {
       "id": 8,
       "name": "Peony",
-      "image": "/clickygame/images/peony.jpg",
+      "image": "/memorygame/images/peony.jpg",
       "clicked": false
     },
     {
       "id": 9,
       "name": "St John's Wort",
-      "image": "/clickygame/images/stJohnsWort.jpg",
+      "image": "/memorygame/images/stJohnsWort.jpg",
       "clicked": false
     },
     {
       "id": 10,
       "name": "Dandelion",
-      "image": "/clickygame/images/dandelion.jpg",
+      "image": "/memorygame/images/dandelion.jpg",
       "clicked": false
     },
     {
       "id": 11,
       "name": "Crown of Christ",
-      "image": "/clickygame/images/crown.jpg",
+      "image": "/memorygame/images/crown.jpg",
       "clicked": false
     },
     {
       "id": 12,
       "name": "Orchid",
-      "image": "/clickygame/images/orchid.jpg",
+      "image": "/memorygame/images/orchid.jpg",
       "clicked": false
     }
   ]
