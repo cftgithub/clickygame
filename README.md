@@ -9,7 +9,7 @@ Memory Game is memory challenge game created using React. The game renders 12 fl
 * The placement of images will shuffle in a random order with each click, making the game more challenging.
 
 ## Demo
-The game is deployed. You can play this game [here](https://cftgithub.github.io/memorygame/).
+The game is deployed. You can play this game [here](https://cftgithub.github.io/memoryGame/).
 
 ## Technologies Used
 * React
