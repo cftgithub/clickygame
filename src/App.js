@@ -84,7 +84,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar message={this.state.message} score={this.state.score} highScore={this.state.highScore} />
+        <Navbar
+          message={this.state.message}
+          score={this.state.score}
+          highScore={this.state.highScore} />
         <Heading />
         <Wrapper>
           {this.state.cards.map(card => (
