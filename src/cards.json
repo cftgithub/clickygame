@@ -2,13 +2,13 @@
     {
       "id": 1,
       "name": "Iris",
-      "image": "/memorygame/images/iris.jpg",
+      "image": "./memorygame/images/iris.jpg",
       "clicked": false
     },
     {
       "id": 2,
       "name": "Protea",
-      "image": "/memorygame/images/protea.jpg",
+      "image": "../memorygame/images/protea.jpg",
       "clicked": false
     },
     {
