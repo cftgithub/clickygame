@@ -2,13 +2,13 @@
     {
       "id": 1,
       "name": "Iris",
-      "image": "/clickygame/images/iris.jpg",
+      "image": "./clickygame/images/iris.jpg",
       "clicked": false
     },
     {
       "id": 2,
       "name": "Protea",
-      "image": "/clickygame/images/protea.jpg",
+      "image": "../clickygame/images/protea.jpg",
       "clicked": false
     },
     {
