@@ -4,7 +4,7 @@ import "./style.css";
 function Heading() {
     return (
         <div className="hero">
-            <h1>Memory Game</h1>
+            <h1>Flower Memory Game</h1>
             <h2>Click each flower only once!
                 <br/>
                 Get all twelve and WIN!!!

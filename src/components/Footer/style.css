@@ -6,8 +6,9 @@
 }
 
 .footer-title {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     font-size: 22px;
     text-align: center;
+    padding: 5px;
 }
