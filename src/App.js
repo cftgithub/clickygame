@@ -12,7 +12,7 @@ class App extends Component {
     cards,
     score: 0,
     highScore: 0,
-    message: "Click a Flower to Play"
+    message: "Flower Memory Game"
   };
 
   clickCard = id => {

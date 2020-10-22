@@ -5,7 +5,7 @@ function Heading() {
     return (
         <div className="hero">
             <h1>Flower Memory Game</h1>
-            <h2>Click each flower only once!
+            <h2>Do not click each flower more than once!
                 <br/>
                 Get all twelve and WIN!!!
             </h2>
